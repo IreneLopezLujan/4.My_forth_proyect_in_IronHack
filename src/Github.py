@@ -1,7 +1,6 @@
 import requests
 import re
 from datetime import datetime
-
 from config import BASE_URL, HEADERS, OWNER, REPO
 
 def fetch_user(username):
